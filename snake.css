@@ -38,6 +38,7 @@ body {
 .snakeColor {
   background-color: rgb(249, 17, 17);
   border-radius: 12px;
+  border: none;
 }
 
 .food {
