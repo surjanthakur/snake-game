@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // game over logic -------------------------->
     if (head.x < 0 || head.x >= rows || head.y < 0 || head.y >= columns) {
       clearInterval(intervalid);
+      alert("game is over press refresh button to restart game");
       return;
     }
 
